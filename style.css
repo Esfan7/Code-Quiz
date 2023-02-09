@@ -1,15 +1,93 @@
-div>a
-{
-    float: left;
+.nav{
+    display: flex;
+    justify-content: space-between;
 }
-#T
-{
-float: right;
+.nav a{
+    text-decoration: none;
+}
+#T{
+
 text-decoration: none;
 color: black;
+border-radius: 40px;
+padding: 10px;
+background-color: grey;
+
 }
 
-#VH
-{
+#VH{
     color: purple;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 40px;
+    
+    
+}
+
+#questions
+{
+    margin-top: 10%; 
+    display: inline-block;
+    
+    
+}
+#message{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: 10px;
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.qBtn{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#finish{
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+}
+fieldset{
+    border: 10px;
+}
+
+button{
+    border-radius: 100px;
+    background-color: purple;
+    border: 100px;
+    width:70px;
+    color:white;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#score
+{
+    border: 10px;
+    border-radius: 10px;
+    background-color: purple;
+    height: 40px;
 }

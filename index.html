@@ -12,13 +12,29 @@
 
 
 <div>
+    <!--<button class="start">Start Game</button>-->
+    <div class="nav">
     <a id="VH" href="highscore.html"><p>View Highscore</p></a>
-    <a id="T" href="#"> <p id="time">Time:</p></a>
-    <div>
-        <p id="QuestionText">
-        </p>
-        <ul id="Answers">
-        </ul>
+    <span id="T" href="#"> <p id="time">Time:</p></span>
+    </div>
+    <div class="center">
+        <div id="questions" class="center" style="display: none;">
+            
+        </div>
+        <div id="message"></div>
+
+        <div id="finish" style="display:none;">
+            <h1>All Done</h1>
+            <fieldset>
+                <label for="">Initials</label>
+                <input type="text" name="initials">
+                <button>Submit</button>
+            </fieldset>
+
+        </div>
+        <div id="start">
+            <button id="startBtn">Start</button>
+        </div>
     </div>
 </div>
 </body>
